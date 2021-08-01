@@ -1,6 +1,6 @@
 class Solution {
     public String destCity(List<List<String>> paths) {
-        Set<String> cities=new HashSet<>();
+        Set<String> cities=new Has  hSet<>();
         for(List<String> city:paths){
             cities.add(city.get(0));
         }
